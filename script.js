@@ -1,0 +1,1 @@
+document.querySelectorAll('a[href^="#"]').forEach(function(link){link.addEventListener('click',function(){var target=document.querySelector(link.getAttribute('href'));if(target)target.scrollIntoView({behavior:'smooth'});});});
